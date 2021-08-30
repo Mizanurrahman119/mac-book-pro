@@ -1,50 +1,3 @@
-// //  memory section----//
-// document.getElementById('memory').addEventListener('click', function(){
-//     const memoryCostInput = document.getElementById('memory-cost');
-//     memoryCostInput.innerText = (0);
-// })
-// document.getElementById('memory1').addEventListener('click', function(){
-//     const memoryCostInput = document.getElementById('memory-cost');
-//     memoryCostInput.innerText = (180);
-// })
-
-// // -----Storage section ----//
-// document.getElementById('storage1').addEventListener('click', function(){
-//     const storageCostInput = document.getElementById('storage-cost');
-//     storageCostInput.innerText = (0);
-// })
-// document.getElementById('storage2').addEventListener('click', function(){
-//     const storageCostInput = document.getElementById('storage-cost');
-//     storageCostInput.innerText = (100);
-// })
-// document.getElementById('storage3').addEventListener('click', function(){
-//     const storageCostInput = document.getElementById('storage-cost');
-//     storageCostInput.innerText = (180);
-// })
-
-// //------ delivery section -----//
-// document.getElementById('delivery').addEventListener('click', function(){
-//     const deliveryCostInput = document.getElementById('delivery-cost');
-//     deliveryCostInput.innerText = (0);
-// })
-// document.getElementById('delivery1').addEventListener('click', function(){
-//     const deliveryCostInput = document.getElementById('delivery-cost');
-//     deliveryCostInput.innerText = parseInt(20);
-// });
-
-
-// const totalPrice = document.getElementById('total-price');
-// const balanceTotalText = totalPrice.innerText;
-// const previousBalanceTotal = parseFloat(balanceTotalText);
-// totalPrice.innerText = previousBalanceTotal + 1299;
-
-
-
-
-
-
-
-
 
 function totalPrice(id){
    
@@ -142,7 +95,7 @@ document.getElementById('delivery1').addEventListener('click',function(){
 document.getElementById('promo-btn').addEventListener
     ('click', function () {
 
-        const pin = 5698724;
+        const pin = 1234;
         
         const inputfieldCount = document.getElementById('promo-input');
         const inputinputfield = parseFloat(inputfieldCount.value);
